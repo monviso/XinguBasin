@@ -6,8 +6,8 @@
 options(stringsAsFactors = FALSE, warn = 1)
 cfg <- list(
   observation_csv =
-    "E:/Xingu_rev/data/step04_sentinel1_opera_v3/sentinel1_observations.csv",
-  output_dir = "E:/Xingu_rev/data/step05_sentinel1_analysis_v3",
+    "~/data/step04_sentinel1_opera_v3/sentinel1_observations.csv",
+  output_dir = "~/data/step05_sentinel1_analysis_v3",
   minimum_acquisitions = 6L,
   dry_months = 6:9,
   wet_months = c(1:3, 11:12),
