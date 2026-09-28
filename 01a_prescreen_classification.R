@@ -8,10 +8,10 @@ options(stringsAsFactors = FALSE, warn = 1)
 
 cfg <- list(
   input_files = file.path(
-    "E:/Xingu_rev/data",
     sprintf("GEDI_RFLD_sampling_frame_%d.parquet", 2019:2023)
+    "~/data",
   ),
-  output_dir = "E:/Xingu_rev/data/step01a_classification_prescreen",
+  output_dir = "~/data/step01a_classification_prescreen",
   seed = 42L,
   overwrite = FALSE,
   # Rebuild only Phase 3 while reusing the expensive sample and fitted model.
