@@ -3,10 +3,10 @@
 # STEP 03 — Build annual HLS indices and test radiometric class differences.
 options(stringsAsFactors = FALSE, warn = 1)
 cfg <- list(
-  sample_csv = "E:/Xingu_rev/data/step02_radiometry_v3/gedi_radiometric_sample.csv",
+  sample_csv = "~/data/step02_radiometry_v3/gedi_radiometric_sample.csv",
   appeears_download_dir =
-    "E:/Xingu_rev/data/step02_radiometry_v3/appeears_downloads",
-  output_dir = "E:/Xingu_rev/data/step03_radiometric_analysis_v3",
+    "~/data/step02_radiometry_v3/appeears_downloads",
+  output_dir = "~/data/step03_radiometric_analysis_v3",
   minimum_clear_observations = 3L,
   p_adjust_method = "BH"
 )
