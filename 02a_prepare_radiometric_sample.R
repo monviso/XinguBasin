@@ -10,10 +10,10 @@
 options(stringsAsFactors = FALSE, warn = 1)
 
 cfg <- list(
-  project_dir = "E:/Xingu_rev",
+  project_dir = "Yor_main_dir_here",
   assignment_dataset =
-    "E:/Xingu_rev/data/step01b_final_classification/assignments_dataset",
-  output_dir = "E:/Xingu_rev/data/step02_radiometry_v3",
+    "~/data/step01b_final_classification/assignments_dataset",
+  output_dir = "~/data/step02_radiometry_v3",
   # AppEEARS returns complete HLS time series for every point; 100 points per
   # class x year (up to 3,000 total) is ample and keeps the workload practical.
   sample_per_class_year = 100L,
