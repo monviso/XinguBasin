@@ -4,7 +4,7 @@
 # First-time credential setup (never put the password in this script):
 #install.packages("appeears")
 options(keyring_backend = "file")
-appeears::rs_set_key(user = "monviso",
+appeears::rs_set_key(user = "YOUR Earth data Username",
                        password = getPass::getPass("Earthdata password:"))
 
 options(stringsAsFactors = FALSE, warn = 1)
@@ -14,8 +14,8 @@ cfg <- list(
   # Manager for scripted/batch access. The same backend must be used when
   # saving and retrieving the Earthdata password.
   keyring_backend = "file",
-  sample_csv = "E:/Xingu_rev/data/step02_radiometry_v3/gedi_radiometric_sample.csv",
-  output_dir = "E:/Xingu_rev/data/step02_radiometry_v3/appeears_downloads",
+  sample_csv = "~/data/step02_radiometry_v3/gedi_radiometric_sample.csv",
+  output_dir = "~/data/step02_radiometry_v3/appeears_downloads",
   batch_size = 200L,
   requested_layers = c("B02", "B03", "B04", "B05", "B8A", "B11", "B12",
                        "Fmask"),
