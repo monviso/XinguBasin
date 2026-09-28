@@ -11,8 +11,8 @@ cfg <- list(
     "E:/Xingu_rev/data",
     sprintf("GEDI_RFLD_sampling_frame_%d.parquet", 2019:2023)
   ),
-  prescreen_dir = "E:/Xingu_rev/data/step01a_classification_prescreen",
-  output_dir = "E:/Xingu_rev/data/step01b_final_classification",
+  prescreen_dir = "~/data/step01a_classification_prescreen",
+  output_dir = "~/data/step01b_final_classification",
   seed = 42L,
   overwrite = FALSE,
   # Rebuild only Phase 3 while reusing the expensive sample and fitted model.
