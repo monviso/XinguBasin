@@ -10,9 +10,9 @@
 
 options(stringsAsFactors = FALSE, warn = 1)
 cfg <- list(
-  earthdata_user = "monviso",
-  sample_csv = "E:/Xingu_rev/data/step02_radiometry_v3/gedi_radiometric_sample.csv",
-  output_dir = "E:/Xingu_rev/data/step04_sentinel1_opera_v3",
+  earthdata_user = "Your_EarthData_Username",
+  sample_csv = "~/data/step02_radiometry_v3/gedi_radiometric_sample.csv",
+  output_dir = "~/data/step04_sentinel1_opera_v3",
   sample_per_class_year = 30L,
   max_acquisitions_per_point_year = 12L,
   extraction_buffer_m = 45,
