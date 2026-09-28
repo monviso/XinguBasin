@@ -9,15 +9,15 @@
 
 options(stringsAsFactors = FALSE, warn = 1)
 cfg <- list(
-  project_dir = "E:/Xingu_rev",
-  assignment_dataset = "E:/Xingu_rev/data/step01b_final_classification/assignments_dataset",
-  transect_dir = "E:/temp_download_toGLOBUS",
+  project_dir = "~",
+  assignment_dataset = "~/data/step01b_final_classification/assignments_dataset",
+  transect_dir ="ALS_Transects_directory",
   transect_files = c(
     "FIB_2018_ref_mons.shp",
     "Ometto_2018_ref_mons.shp",
     "paisagens_2021_ref_mons.shp"
   ),
-  output_dir = "E:/Xingu_rev/data/step06_GEDI_ALS_overlap_v3",
+  output_dir = "~/data/step06_GEDI_ALS_overlap_v3",
   # NULL retains every class selected by Step 01a/01b.
   classes_to_keep = NULL,
   # Centre-in-polygon is the strict/default definition. Set to 12.5 to retain
