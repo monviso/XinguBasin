@@ -29,13 +29,13 @@ suppressPackageStartupMessages({
 })
 
 cfg <- list(
-  step01a_dir = "E:/Xingu_rev/data/step01a_classification_prescreen",
-  step01b_dir = "E:/Xingu_rev/data/step01b_final_classification",
+  step01a_dir = "~/data/step01a_classification_prescreen",
+  step01b_dir = "~/data/step01b_final_classification",
   input_files = file.path(
-    "E:/Xingu_rev/data",
+    "~/data",
     sprintf("GEDI_RFLD_sampling_frame_%d.parquet", 2019:2023)
   ),
-  output_dir = "E:/Xingu_rev/data/step01c_extended_robustness",
+  output_dir = "~/data/step01c_extended_robustness",
   seed = 42L,
   overwrite = FALSE,
   
