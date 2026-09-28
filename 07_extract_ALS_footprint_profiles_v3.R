@@ -8,10 +8,10 @@
 options(stringsAsFactors = FALSE, warn = 1)
 
 cfg <- list(
-  project_dir = "E:/Xingu_rev",
-  matches_file = "E:/Xingu_rev/data/step06_GEDI_ALS_overlap_v3/GEDI_ALS_matches.csv",
-  laz_dir = "E:/Xingu_rev/data/ALS",
-  output_dir = "E:/Xingu_rev/data/step07_ALS_profiles_v3",
+  project_dir = "Main Project DIR",
+  matches_file = "~/data/step06_GEDI_ALS_overlap_v3/GEDI_ALS_matches.csv",
+  laz_dir = "~/data/ALS",
+  output_dir = "~/data/step07_ALS_profiles_v3",
   # Set NULL to process every matched shot. The default is a balanced external
   # validation sample and limits expensive repeated LAZ reads.
   max_shots_per_class = 150L,
