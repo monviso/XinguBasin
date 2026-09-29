@@ -23,8 +23,8 @@ suppressPackageStartupMessages({
 
 cfg <- list(
   # A Parquet file or a directory containing the classified GEDI Parquet files.
-  input_path = "E:/Xingu_rev/data/step01b_final_classification/assignments_dataset",
-  output_dir = "E:/Xingu_rev/data/step09_predictor_sample_v3",
+  input_path = "~/data/step01b_final_classification/assignments_dataset",
+  output_dir = "~/data/step09_predictor_sample_v3",
   
   # Use the complete GEDI V3 temporal coverage and every selected class.
   years = 2019:2023,
