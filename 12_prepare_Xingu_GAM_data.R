@@ -6,9 +6,9 @@ suppressPackageStartupMessages({
 })
 
 cfg <- list(
-  history = "/scratch/mr3882/temp/RFLD_point_extraction/nonforest_area/RFLD_full_history_all_with_nonforest_area.parquet",
-  climate = "/scratch/mr3882/temp/terrain_climate_direct/predictor_sample_terrain_climate.csv",
-  output_dir = "/scratch/mr3882/temp/Xingu_GAM",
+  history = "~/RFLD_full_history_all_with_nonforest_area.parquet",
+  climate = "~/predictor_sample_terrain_climate.csv",
+  output_dir = "~/Xingu_GAM",
   overwrite = FALSE
 )
 
