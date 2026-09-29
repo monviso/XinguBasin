@@ -6,8 +6,8 @@
 
 options(stringsAsFactors = FALSE, warn = 1)
 cfg <- list(
-  input_file = "E:/Xingu_rev/data/step07_ALS_profiles_v3/ALS_footprint_profiles.csv",
-  output_dir = "E:/Xingu_rev/data/step08_ALS_characterization",
+  input_file = "~/data/step07_ALS_profiles_v3/ALS_footprint_profiles.csv",
+  output_dir = "~/data/step08_ALS_characterization",
   minimum_class_n_for_tests = 5L,
   fdr_method = "BH",
   overwrite = FALSE
