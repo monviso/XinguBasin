@@ -6,8 +6,8 @@ suppressPackageStartupMessages({
 })
 
 args <- commandArgs(trailingOnly = TRUE)
-prepared_path <- if (length(args) >= 1L) args[[1L]] else "/scratch/mr3882/temp/Xingu_GAM/Xingu_GAM_prepared.rds"
-output_dir <- if (length(args) >= 2L) args[[2L]] else "/scratch/mr3882/temp/Xingu_GAM/fits_reduced_basis"
+prepared_path <- if (length(args) >= 1L) args[[1L]] else "/Xingu_GAM/Xingu_GAM_prepared.rds"
+output_dir <- if (length(args) >= 2L) args[[2L]] else "/Xingu_GAM/fits_reduced_basis"
 task_id <- if (length(args) >= 3L) as.integer(args[[3L]]) else as.integer(Sys.getenv("SLURM_ARRAY_TASK_ID", "0"))
 overwrite <- identical(tolower(Sys.getenv("OVERWRITE", "false")), "true")
 dir.create(output_dir, recursive = TRUE, showWarnings = FALSE)
