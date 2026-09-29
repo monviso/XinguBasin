@@ -10,7 +10,7 @@ options(stringsAsFactors = FALSE, warn = 1)
 cfg <- list(
   project_dir = "Main Project DIR",
   matches_file = "~/data/step06_GEDI_ALS_overlap_v3/GEDI_ALS_matches.csv",
-  laz_dir = "~/data/ALS",
+  laz_dir = "~/data/ALS", #here the path to the ALS file downloaded
   output_dir = "~/data/step07_ALS_profiles_v3",
   # Set NULL to process every matched shot. The default is a balanced external
   # validation sample and limits expensive repeated LAZ reads.
