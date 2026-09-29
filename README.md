@@ -15,6 +15,7 @@ This collection of R script allow to reproduce all the workflow of the "Forest s
 ## 2 - Steps 01-09
 The scripts 01-09 cover the NMF and k-means classification, robustness tests, radiometric and ALS characterization. Again, to run ALS steps (07, 08) ALS dataset that overlap spatially with GEDI observations in the Xingu basin must be downloaded locally. The file .... reports the download path of each file. 
 
-## 3 - Steps 
+## 3 - Steps 13 -14
+GAM fitting. The .sbatch file is necessary to run the fitting on HPC environment with SLURM language.
 
  
