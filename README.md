@@ -4,8 +4,12 @@ This collection of R script allow to reproduce all the workflow of the "Forest s
 
 ## 1 - Preliminary steps and disclaimers
 As a preliminary step download all the data from Zenodo.\
-Steps 01-09 where run locally on a Dell Precision 3680 , Processor:	Intel(R) Core(TM) i7-14700K, 3400 Mhz, 20 Core(s), 28 Logical Processor(s)\
-Steps 13 -14 where implemented on the Northern Arizona University HPC Monsoon : https://in.nau.edu/arc/details/\
-Plots (15
+Steps 01-09 where run locally on a Dell Precision 3680 , Processor:	Intel(R) Core(TM) i7-14700K, 3400 Mhz, 20 Core(s), 28 Logical Processor(s).\
+To run 
+Steps 13 -14 and 22 where implemented on the Northern Arizona University HPC Monsoon (https://in.nau.edu/arc/details/) due to the high compuatational demand.
+Steps 15-17 and 23-24 again locally.\
+Missing script numbers are ancillary scripts already integrated in the current script set version.
+All the scripts can be run sequentially and paths must be carefully edited in each script to match your local machine/HPC directory structure.
+All intermidiate results and plots proidcued here can be direcly downlaoded on Zenodo.
 
  
